@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Street Performance</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      opacity: 0.8;
+      line-height: 1.5;
+    }
+
+    .video {
+      margin: 30px 0;
+      background: #1a1a1a;
+      padding: 40px;
+      border-radius: 12px;
+    }
+
+    .donate-title {
+      margin-top: 40px;
+      font-size: 20px;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    a.button {
+      display: block;
+      padding: 16px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    a.button:hover {
+      transform: scale(1.03);
+    }
+
+    .small {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-top: 30px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      opacity: 0.7;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Street Performance</h1>
+
+    <div class="tagline">
+      Saxophone • Percussion • Live street energy
+    </div>
+
+    <p>
+      Live performances in public spaces.  
+      Each show is a one-time moment shaped by the city, people and rhythm.
+    </p>
+
+    <div class="video">
+      <p>🎥 Add your video here (YouTube / Instagram / demo)</p>
+    </div>
+
+    <div class="donate-title">Support the show 🥪</div>
+
+    <div class="buttons">
+
+      <a class="button" href="YOUR_STRIPE_LINK_5" target="_blank">
+        5€<br><small>small vibe</small>
+      </a>
+
+      <a class="button" href="YOUR_STRIPE_LINK_10" target="_blank">
+        10€<br><small>thank you</small>
+      </a>
+
+      <a class="button" href="YOUR_STRIPE_LINK_20" target="_blank">
+        20€<br><small>you made my day</small>
+      </a>
+
+      <a class="button" href="YOUR_STRIPE_LINK_50" target="_blank">
+        50€<br><small>big energy</small>
+      </a>
+
+    </div>
+
+    <div class="small">
+      If you enjoyed the moment — support the music.
+    </div>
+
+  </div>
+
+</body>
+</html>
